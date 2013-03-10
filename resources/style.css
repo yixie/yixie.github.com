@@ -13,7 +13,7 @@
 html { background: #010000 url(images/bg.gif) repeat-x; }
 
 body {
-	font: 11px/165% Microsoft YaHei, Arial, sans-serif;
+	font: 11px/165% 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;
 	color: #5E5E5E;
 	margin: 0; 	padding: 0; 
 	background: #010000 url(images/bg2.jpg) no-repeat center top;
@@ -57,6 +57,9 @@ ul, ol {
 	margin: 10px 20px;
 	padding: 0 20px;
 }
+ol li {
+	margin: 10px 0 0 0;
+}
 ul { list-style: none; }
 
 dt {
@@ -70,7 +73,7 @@ dd {
 /* images */
 img {
 	background: #1B1B1B;
-   border: 1px solid #1B1B1B;
+	border: 1px solid #1B1B1B;
 	padding: 6px;
 }
 img.float-right {
@@ -207,8 +210,8 @@ input.button {
 	position: relative;
 	width: 950px;	
 	display:none;
-	height: 200px;	
-	margin: 10px 0 0 0; padding: 0;			
+	height: 180px;	
+	margin: 20px 0 0 0; padding: 0;			
 }
 #banner h1#logo-text a {
 	margin: 0 0 0 15px; padding: 0;
@@ -222,10 +225,11 @@ input.button {
 	top: 125px; left: 25px;	
 }
 #banner h1#logo-text a:hover {
-	background: none;	border: none;
+	background: none;	
+	border: none;
 }
 #banner p#intro {
-	margin: 0 0 0 25px;; padding: 0;
+	margin: 10px 0 0 25px; padding: 0;
 	font-family: Microsoft YaHei, Arial, Sans-serif;
 	font-weight: bold;
 	font-size: 16px;
@@ -285,7 +289,7 @@ input.button {
 #main h2 {
 	padding: 5px 12px;
 	margin: 15px 5px 10px 5px;
-	font: bold 2.4em Microsoft YaHei, Arial, sans-serif;				
+	font: 2em Microsoft YaHei, Arial, sans-serif;				
 	color: #99CC00;
 	border-bottom: 1px solid #121212; 
 	background-image: url(images/pattern.gif);	
@@ -309,7 +313,7 @@ input.button {
 #sidebar h3 {
 	padding: 5px 12px;
 	margin: 15px 5px 10px 0;
-	font: bold 2.4em Microsoft YaHei, Arial, sans-serif;				
+	font: 2em Microsoft YaHei, Arial, sans-serif;				
 	color: #99CC00;
 	border-bottom: 1px solid #121212; 
 	background-image: url(images/pattern.gif);		
@@ -422,7 +426,7 @@ input.button {
 .postmeta a.comments { margin: 0 10px 0 5px;	}
 .postmeta a.readmore { margin: 0 10px 0 5px;	}
 
-.post-info { font-size: .95em; padding-top: 3px; margin-left: 5px; color: #444;	}
+.post-info { font-size: .95em; padding-top: 0; margin-left: 5px; color: #444; float: right;}
 .post-info a, .post-info a:visited { color: #AE275A; }
 
 /* alignment classes */

@@ -13,6 +13,7 @@
 <meta name="googlebot" content="noarchive" />
 
 <link rel="stylesheet" href="resources/style.css" type="text/css" />
+<script type="text/javascript" src="resources/tagcanvas.min.js"></script>
 <script type="text/javascript" src="resources/main.js"></script>
 </head>
 
@@ -25,12 +26,12 @@
 	<div id="header">
 		<div id="nav">
 			<ul>
-				<li id="nav_index"><a href="index.html">首页</a></li>
-				<li id="nav_techn"><a href="style.html">技术</a></li>
-				<li id="nav_soute"><a href="index.html">札记</a></li>
+				<li id="nav_index" class="current"><a href="index.html">首页</a></li>
+				<li id="nav_major"><a href="major.html">技术</a></li>
+				<li id="nav_ideas"><a href="ideas.html">随笔</a></li>
 				<li id="nav_movie"><a href="movie.html">电影</a></li>
-				<li id="nav_photo"><a href="index.html">相册</a></li>
-				<li id="nav_about"><a href="index.html">关于</a></li>		
+				<li id="nav_album"><a href="album.html">相册</a></li>
+				<li id="nav_diary"><a href="diary.html">日记</a></li>	
 			</ul>		
 		</div>	
 	</div>					
@@ -48,39 +49,46 @@
 		
 		<!-- sidebar starts -->
 		<div id="sidebar">			
-		
-			<h3>关于良锋</h3>			
-			
-			<p>
-			<a href="http://zhangliangfeng.github.com/"><img src="resources/images/thumb.jpg" width="40" height="40" alt="liangfeng" class="float-left" /></a>
-			程序员</br>
-			软件工程师</br>
-			数字时代的手工艺人</br>
+			<h3>这是个什么地方</h3>			
+			<div id="myCanvasContainer">
+				<canvas width="250" height="200" id="myCanvas">
+					<p>推荐使用<strong>Chrome</strong>或者<strong>Firefox<strong>浏览器以支持该<strong>Canvas</strong>插件</p>
+				</canvas>
+			</div>
+			<div id="tags">
+			  <ul>
+				<li><a href="major_vimviki.html">Vimwiki</a></li>
+				<li><a href="major_canvas">Canvas</a></li>
+				<li><a href="major_linux">Linux</a></li>
+				<li><a href="major_python">Python</a></li>
+				<li><a href="major_web">Web</a></li>
+				<li><a href="major_javascript">Javascript</a></li>
+				<li><a href="movie.html">Movie</a></li>
+			  </ul>
+			</div>
+			<form id="quick-search" action="index.html" method="get" >
+				<p>
+					<label for="qsearch">Search:</label>
+					<input class="tbox" id="qsearch" type="text" name="qsearch" value="Search this site..." title="Start typing and hit ENTER" />
+					<input class="btn" alt="Search" type="image" name="searchsubmit" title="Search" src="resources/images/search.gif" />
+				</p>
+			</form>
+			<h3>去哪儿找我</h3>
 			<ul class="sidemenu">
 				<li><a href="http://www.douban.com/people/58847811/">我的豆瓣
 				<span>文艺青年装逼必备</span></a>
 				</li>
 				<li><a href="http://www.renren.com/253132530/profile">我的人人
-				<span>大学时代一去不复返啊</span></a>
+				<span>大学时代的青葱岁月</span></a>
 				</li>					
 				<li><a href="http://user.qzone.qq.com/1012607897/main">我的QQ空间
-				<span>老少皆宜的好地方</span></a>
+				<span>老中青集中营</span></a>
 				</li>				
 			</ul>
-			</p>
-			
-			<form id="quick-search" action="index.html" method="get" >
-			<p>
-			<label for="qsearch">Search:</label>
-			<input class="tbox" id="qsearch" type="text" name="qsearch" value="Search this site..." title="Start typing and hit ENTER" />
-			<input class="btn" alt="Search" type="image" name="searchsubmit" title="Search" src="resources/images/search.gif" />
-			</p>
-			</form>	
-
 			<h3>想看什么自己选</h3>
 			<ul class="sidemenu">				
 				<li><a href="index.html">首页</a></li>
-				<li><a href="index.html#Hotspot">重磅推荐</a></li>
+				<li><a href="index.html">重磅推荐</a></li>
 				<li><a href="movie.html">电影专区</a></li>
 			</ul>	
 				

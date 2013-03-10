@@ -1,4 +1,8 @@
-== index ==
-* 1
-* 2
-* 3
+== 重磅推荐 ==
+# [[major_vimwiki|使用GITHUB+VIMWIKI打造轻量级静态博客]] <p class="post-info">归类 [[major|技术]] | 2012-03-10</p>
+# [[major_topology|基于HTML5 CANVAS的网络设备拓扑WEB展现]] <p class="post-info">归类 [[major|技术]] | 2012-03-10</p>
+
+== 下在开头 ==
+{{resources/images/thumb.jpg||class="float-left";}}
+"*长风* 破浪会有时，直挂云帆济沧海"
+长风当然不是我的本名啦，迫于淘宝的
