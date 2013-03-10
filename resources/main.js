@@ -10,7 +10,10 @@
 var onPageLoad = function() {
 	var path = location.href.split(".html")[0];
 	var urls = path.split("/");
-	var name = urls[urls.length - 1];
+	var name = "index";
+	if(urls.length > 1) {
+		name = urls[urls.length - 1];
+	}
 	
 	var nav = document.getElementById("nav");
 	var lis = nav.getElementsByTagName("li");
@@ -39,7 +42,6 @@ var onPageLoad = function() {
 		maxSpeed: 0.05
 	  });
 	} catch(e) {
-	  // something went wrong, hide the canvas container
 	  document.getElementById('myCanvasContainer').style.display = 'none';
 	}
 };
