@@ -209,7 +209,7 @@ input.button {
 #banner {
 	position: relative;
 	width: 950px;	
-	display:none;
+	#display:none;
 	height: 180px;	
 	margin: 20px 0 0 0; padding: 0;			
 }

@@ -11,7 +11,7 @@ var onPageLoad = function() {
 	var path = location.href.split(".html")[0];
 	var urls = path.split("/");
 	var name = "index";
-	if(urls.length > 1) {
+	if(location.href.indexOf(".html") > 0) {
 		name = urls[urls.length - 1];
 	}
 	
@@ -31,6 +31,8 @@ var onPageLoad = function() {
 		var html = "<h1 id='logo-text'><a href='#'>" + title + "</a></h1><p id='intro'>" + intro + "</p>";
 		banner.innerHTML = html;
 		banner.style.display = "block";
+	} else {
+		banner.style.display = "none";
 	}
 	
 	try {
