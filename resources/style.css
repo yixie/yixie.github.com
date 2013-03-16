@@ -286,6 +286,17 @@ input.button {
 	padding: 0; margin: 0 0 0 10px;
 	display: inline;		
 }
+#main p {
+	font-family: Microsoft YaHei, Arial, Sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	font-style: normal;
+	text-transform: none;
+	color: #BEBEBE;
+}
+#main p.post-info { font-size: .95em; padding-top: 0; margin-left: 5px; color: #444; float: right; }
+#main p.post-info a, #main p.post-info a:visited { color: #AE275A; }
+
 #main h2 {
 	padding: 5px 12px;
 	margin: 15px 5px 10px 5px;
@@ -425,9 +436,6 @@ input.button {
 .postmeta .date{ margin: 0 10px 0 5px;	}
 .postmeta a.comments { margin: 0 10px 0 5px;	}
 .postmeta a.readmore { margin: 0 10px 0 5px;	}
-
-.post-info { font-size: .95em; padding-top: 0; margin-left: 5px; color: #444; float: right;}
-.post-info a, .post-info a:visited { color: #AE275A; }
 
 /* alignment classes */
 .float-left  { float: left; }

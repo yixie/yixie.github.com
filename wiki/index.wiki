@@ -2,7 +2,7 @@
 # [[major_vimwiki|使用GITHUB+VIMWIKI打造轻量级静态博客]] <p class="post-info">归类 [[major|技术]] | 2012-03-10</p>
 # [[major_topology|基于HTML5 CANVAS的网络设备拓扑WEB展现]] <p class="post-info">归类 [[major|技术]] | 2012-03-10</p>
 
-== 下在开头 ==
+== 写在开头 ==
 {{resources/images/thumb.jpg||class="float-left";}}
-"*长风* 破浪会有时，直挂云帆济沧海"
-长风当然不是我的本名啦，迫于淘宝的
+首先，实在是想不出一个像样的笔名，
+作为一个互联网重度用户，在享受互联网带来的便利的同时，也深深地发现，自己的生活正在逐渐被网络吞噬：不再愿意系统地学东西，
