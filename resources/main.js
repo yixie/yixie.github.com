@@ -1,5 +1,5 @@
 ﻿var menu_config = {
-	"index" : ["良锋的维基站点", "欢迎来到良锋的维基站点。本站点由<a href='http://www.github.com'>Github Pages</a>托管，所有页面采用<a href='https://code.google.com/p/vimwiki/'>Vimwiki</a>纯手工编写。力求简单高效，记录生活点滴，技术心得。"],
+	"index" : ["伊邪的维基站点", "欢迎来到伊邪的维基站点。本站点由<a href='http://www.github.com'>Github Pages</a>托管，所有页面采用<a href='https://code.google.com/p/vimwiki/'>Vimwiki</a>纯手工编写。力求简单高效，记录生活点滴，技术心得。"],
 	"major" : ["程序员的自我修养", "技术学无止境"],
 	"ideas" : ["Ideas worth spreading.", "记录生活点滴，捕捉灵感瞬间"],
 	"movie" : ["电影狂人的自白", "好电影是需要共享的"],

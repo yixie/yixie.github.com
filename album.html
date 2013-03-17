@@ -1,14 +1,13 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html>
 <head>
 
-<title>良锋的维基站点</title>
+<title>伊邪的维基站点</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="author" content="Liangfeng Zhang - liangfeng.zhanglf.com" />
-<meta name="description" content="Liangfeng's wiki site" />
-<meta name="keywords" content="liangfeng, wiki" />
+<meta name="author" content="yixie - yixie.github.com" />
+<meta name="description" content="yixie's wiki site" />
+<meta name="keywords" content="yixie, wiki" />
 <meta name="robots" content="index, follow, noarchive" />
 <meta name="googlebot" content="noarchive" />
 
@@ -32,7 +31,24 @@
 				<li id="nav_movie"><a href="movie.html">电影</a></li>
 				<li id="nav_album"><a href="album.html">相册</a></li>
 				<li id="nav_diary"><a href="diary.html">日记</a></li>	
-			</ul>		
+			</ul>
+			
+			<!-- google search starts -->
+			<script>
+			  (function() {
+				var cx = '008295439449130997388:1qciwzerdoi';
+				var gcse = document.createElement('script');
+				gcse.type = 'text/javascript';
+				gcse.async = true;
+				gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+					'//www.google.com/cse/cse.js?cx=' + cx;
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
+			<div id="search"><gcse:searchbox-only></gcse:searchbox-only></div>
+			<!-- google search ens -->
+			
 		</div>	
 	</div>					
 	<!--header ends-->
@@ -54,14 +70,48 @@
 #
 </p>
 
+			
+			<!-- bshare starts -->
+			<h3>分享到</h3>
+			<div class="bshare-custom">
+				<a title="分享到QQ空间" class="bshare-qzone"></a>
+				<a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+				<a title="分享到人人网" class="bshare-renren"></a>
+				<a title="分享到腾讯微博" class="bshare-qqmb"></a>
+				<a title="分享到豆瓣" class="bshare-douban"></a>
+				<a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>
+				<span class="BSHARE_COUNT bshare-share-count">0</span>
+			</div>
+			<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+			<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+			<!-- bshare ens -->
+			
+			<!-- disqus comment starts -->
+			<h3>评论</h3>
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+				/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				var disqus_shortname = 'yixie'; // required: replace example with your forum shortname
+				/* * * DON'T EDIT BELOW THIS LINE * * */
+				(function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<!-- disqus comment ends -->
+    
 		<!-- main ends -->	
 		</div>
-		
+
 		<!-- sidebar starts -->
 		<div id="sidebar">			
-			<h3>这是个什么地方</h3>			
+			<h3>这是个什么地方</h3>		
+
+			<!-- cloud tag starts -->
 			<div id="myCanvasContainer">
-				<canvas width="250" height="200" id="myCanvas">
+				<canvas width="250" height="180" id="myCanvas">
 					<p>推荐使用<strong>Chrome</strong>或者<strong>Firefox<strong>浏览器以支持该<strong>Canvas</strong>插件</p>
 				</canvas>
 			</div>
@@ -76,13 +126,8 @@
 				<li><a href="movie.html">Movie</a></li>
 			  </ul>
 			</div>
-			<form id="quick-search" action="index.html" method="get" >
-				<p>
-					<label for="qsearch">Search:</label>
-					<input class="tbox" id="qsearch" type="text" name="qsearch" value="Search this site..." title="Start typing and hit ENTER" />
-					<input class="btn" alt="Search" type="image" name="searchsubmit" title="Search" src="resources/images/search.gif" />
-				</p>
-			</form>
+			<!-- cloud tag ens -->
+			
 			<h3>去哪儿找我</h3>
 			<ul class="sidemenu">
 				<li><a href="http://www.douban.com/people/58847811/">我的豆瓣
@@ -107,7 +152,7 @@
 				<li><a href="http://www.guokr.com/">果壳
 				<span>科技有意思</span></a>
 				</li>			
-				<li><a href="http://www.cssremix.com">喷嚏
+				<li><a href="http://www.dapenti.com">喷嚏
 				<span>每天一图卦，让我们更清楚地了解这个世界</span></a>
 				</li>				
 			</ul>
@@ -135,7 +180,7 @@
 		<div id="footer-left">
 			<p>
 			&copy; copyright 2013	&nbsp;
-			<a href="http://zhangliangfeng.github.com/" title="Liangfeng's wiki">Liangfeng's Wiki Site</a> by <a href="http://zhangliangfeng.github.com/">Liangfeng Zhang</a> &nbsp;
+			<a href="http://yixie.github.com/" title="yixie's wiki">yixie's wiki site</a> by <a href="http://yixie.github.com/">伊邪</a> &nbsp;
 			</p>	
 		</div>
 		<div id="footer-right">
