@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,11 +62,11 @@
 </p>
 
 
+			<!-- disqus comment starts -->
 			<div id="disqus_thread"></div>
 			<script type="text/javascript">
 				/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-				var disqus_shortname = 'liangfeng'; // required: replace example with your forum shortname
-
+				var disqus_shortname = 'yixie'; // required: replace example with your forum shortname
 				/* * * DON'T EDIT BELOW THIS LINE * * */
 				(function() {
 					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -74,15 +74,18 @@
 					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 				})();
 			</script>
-			<noscript>Enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-		
+			<!-- disqus comment ends -->
+    
 		<!-- main ends -->	
 		</div>
 
 		<!-- sidebar starts -->
 		<div id="sidebar">			
-			<h3>这是个什么地方</h3>			
+			<h3>这是个什么地方</h3>		
+
+			<!-- cloud tag starts -->
 			<div id="myCanvasContainer">
 				<canvas width="250" height="200" id="myCanvas">
 					<p>推荐使用<strong>Chrome</strong>或者<strong>Firefox<strong>浏览器以支持该<strong>Canvas</strong>插件</p>
@@ -99,13 +102,24 @@
 				<li><a href="movie.html">Movie</a></li>
 			  </ul>
 			</div>
-			<form id="quick-search" action="index.html" method="get" >
-				<p>
-					<label for="qsearch">Search:</label>
-					<input class="tbox" id="qsearch" type="text" name="qsearch" value="Search this site..." title="Start typing and hit ENTER" />
-					<input class="btn" alt="Search" type="image" name="searchsubmit" title="Search" src="resources/images/search.gif" />
-				</p>
-			</form>
+			<!-- cloud tag ens -->
+			
+			<!-- google search starts -->
+			<script>
+			  (function() {
+				var cx = '008295439449130997388:1qciwzerdoi';
+				var gcse = document.createElement('script');
+				gcse.type = 'text/javascript';
+				gcse.async = true;
+				gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+					'//www.google.com/cse/cse.js?cx=' + cx;
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
+			<gcse:search></gcse:search>
+			<!-- google search ens -->
+			
 			<h3>去哪儿找我</h3>
 			<ul class="sidemenu">
 				<li><a href="http://www.douban.com/people/58847811/">我的豆瓣
