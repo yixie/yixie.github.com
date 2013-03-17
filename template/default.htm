@@ -1,7 +1,6 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html>
 <head>
 
 <title>良锋的维基站点</title>
@@ -32,7 +31,24 @@
 				<li id="nav_movie"><a href="movie.html">电影</a></li>
 				<li id="nav_album"><a href="album.html">相册</a></li>
 				<li id="nav_diary"><a href="diary.html">日记</a></li>	
-			</ul>		
+			</ul>
+			
+			<!-- google search starts -->
+			<script>
+			  (function() {
+				var cx = '008295439449130997388:1qciwzerdoi';
+				var gcse = document.createElement('script');
+				gcse.type = 'text/javascript';
+				gcse.async = true;
+				gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+					'//www.google.com/cse/cse.js?cx=' + cx;
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
+			<div id="search"><gcse:searchbox-only></gcse:searchbox-only></div>
+			<!-- google search ens -->
+			
 		</div>	
 	</div>					
 	<!--header ends-->
@@ -44,8 +60,24 @@
 		<!-- main starts -->
 		<div id="main">
 			%content%
-
+			
+			<!-- bshare starts -->
+			<h3>分享</h3>
+			<div class="bshare-custom">
+				<a title="分享到QQ空间" class="bshare-qzone"></a>
+				<a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+				<a title="分享到人人网" class="bshare-renren"></a>
+				<a title="分享到腾讯微博" class="bshare-qqmb"></a>
+				<a title="分享到豆瓣" class="bshare-douban"></a>
+				<a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>
+				<span class="BSHARE_COUNT bshare-share-count">0</span>
+			</div>
+			<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+			<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+			<!-- bshare ens -->
+			
 			<!-- disqus comment starts -->
+			<h3>评论</h3>
 			<div id="disqus_thread"></div>
 			<script type="text/javascript">
 				/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -86,22 +118,6 @@
 			  </ul>
 			</div>
 			<!-- cloud tag ens -->
-			
-			<!-- google search starts -->
-			<script>
-			  (function() {
-				var cx = '008295439449130997388:1qciwzerdoi';
-				var gcse = document.createElement('script');
-				gcse.type = 'text/javascript';
-				gcse.async = true;
-				gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-					'//www.google.com/cse/cse.js?cx=' + cx;
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(gcse, s);
-			  })();
-			</script>
-			<gcse:search></gcse:search>
-			<!-- google search ens -->
 			
 			<h3>去哪儿找我</h3>
 			<ul class="sidemenu">
