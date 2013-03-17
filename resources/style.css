@@ -301,12 +301,12 @@ input.button {
 	padding: 5px 12px;
 	margin: 15px 5px 10px 5px;
 	font: 2em Microsoft YaHei, Arial, sans-serif;				
-	color: #99CC00;
+	color: #45D5E6;
 	border-bottom: 1px solid #121212; 
 	background-image: url(images/pattern.gif);	
 }
 #main h2 a {
-	color: #99CC00;
+	color: #45D5E6;
 	text-decoration: none;		
 	border: none;		
 }
@@ -325,7 +325,7 @@ input.button {
 	padding: 5px 12px;
 	margin: 15px 5px 10px 0;
 	font: 2em Microsoft YaHei, Arial, sans-serif;				
-	color: #99CC00;
+	color: #45D5E6;
 	border-bottom: 1px solid #121212; 
 	background-image: url(images/pattern.gif);		
 }
@@ -406,7 +406,7 @@ input.button {
 	border-bottom: 60px solid #010000;	
 }
 #footer a {	
-	color: #438800;
+	color: #45D5E6;
 	border: none;
 }
 #footer a:hover {
