@@ -1,6 +1,6 @@
 /* ----------------------------------------------
-	Author : Liangfeng Zhang
-	Author URI : http://zhangliangfeng.github.com/
+	Author : yixie
+	Author URI : http://yixie.github.com/
  ------------------------------------------------ */
  
 /* ----------------------------------------------
@@ -48,7 +48,9 @@ h2 {
 h3 {
 	font-size: 1.7em;	
 	font-weight: normal;
-	padding: 20px 10px 5px 10px;		
+	padding: 20px 10px 5px 0;
+	margin: 0 0 10px 10px;
+	border-bottom: 1px dotted #438800;
 }
 
 p, dl { padding: 10px; margin: 0; }
@@ -74,13 +76,13 @@ dd {
 img {
 	background: #1B1B1B;
 	border: 1px solid #1B1B1B;
-	padding: 6px;
+	padding: 5px;
 }
 img.float-right {
-  	margin: 5px 0px 10px 10px;  
+  	margin: 0 0px 10px 10px;  
 }
 img.float-left {
-  	margin: 5px 10px 10px 0px;
+  	margin: 0 10px 10px 0px;
 }
 
 code {
@@ -221,6 +223,10 @@ blockquote {
 	padding: 0; margin: 0 0 0 10px;
 	display: inline;		
 }
+#main div{
+	padding: 0; margin: 0 0 0 10px;
+}
+
 #main p {
 	font-family: Microsoft YaHei, Arial, Sans-serif;
 	font-size: 14px;
@@ -232,16 +238,19 @@ blockquote {
 #main p.post-info { font-size: .95em; padding-top: 0; margin-left: 5px; color: #444; float: right; }
 #main p.post-info a, #main p.post-info a:visited { color: #AE275A; }
 
+#main p strong { font-weight: bold; color: #c95723;}
+#main p a { font-weight: bold;  color: #c95723; }
+
 #main h2 {
-	padding: 5px 12px;
+	padding: 0 12px;
 	margin: 15px 5px 10px 5px;
 	font: 2em Microsoft YaHei, Arial, sans-serif;				
-	color: #45D5E6;
+	color: #6D7D2D;
 	border-bottom: 1px solid #121212; 
 	background-image: url(images/pattern.gif);	
 }
 #main h2 a {
-	color: #45D5E6;
+	color: #6D7D2D;
 	text-decoration: none;		
 	border: none;		
 }
@@ -257,10 +266,10 @@ blockquote {
 	display: inline;	
 }	
 #sidebar h3 {
-	padding: 5px 12px;
+	padding: 0 12px;
 	margin: 15px 5px 10px 0;
 	font: 2em Microsoft YaHei, Arial, sans-serif;				
-	color: #45D5E6;
+	color: #6D7D2D;
 	border-bottom: 1px solid #121212; 
 	background-image: url(images/pattern.gif);		
 }
@@ -341,7 +350,7 @@ blockquote {
 	border-bottom: 60px solid #010000;	
 }
 #footer a {	
-	color: #45D5E6;
+	color: #6D7D2D;
 	border: none;
 }
 #footer a:hover {
